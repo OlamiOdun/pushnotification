@@ -1,0 +1,9 @@
+applications:
+- memory: 256M
+  instances: 1
+  # domain: https://olamipushnotifications.eu-gb.mybluemix.net/
+  name: olamipushnotifications
+  host: olamipushnotifications
+  disk_quota: 1024M
+  services: - olamicloudpushnotification
+ 
